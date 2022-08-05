@@ -1,0 +1,249 @@
+.pricing_options {
+   padding: 80px 0px;
+   background-color: #f5f5f5;
+}
+
+/* .pricing_options_tittle!!! */
+
+.pricing_options_tittle_block {
+   text-align: center;
+}
+
+.pricing_options_tittle {
+   font-size: 36px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+   line-height: 42px;
+   color: #212121;
+   text-transform: uppercase;
+}
+
+.pricing_options_tittle::after {
+   content: '';
+   display: block;
+   background-color: #e72424;
+   height: 2px;
+   width: 64px;
+   margin: 34px auto;
+}
+
+.pricing_options_tittle_text {
+   color: #86878b;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19px;
+   margin-top: 34px;
+}
+
+/* pricing_option_wrap!!! */
+
+.pricing_options_wrap {
+   margin: 62px -15px 0px -15px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+/* block_basic*/
+
+.block_basic {
+   max-width: 340px;
+   justify-content: center;
+   text-align: center;
+   margin: 0 15px;
+   transition: 0.3s;
+}
+
+.block_basic:hover {
+   transform: scale(1.1);
+   border: 1px solid rgba(26, 24, 24, 0.5);
+}
+
+.item_name_basic {
+   font-size: 20px;
+   font-weight: 700;
+
+   font-family: 'Open Sans', sans-serif;
+   padding: 11px 144px 12px;
+   background-color: #333333;
+   color: #ffffff;
+}
+
+.item_name_basic::first-letter {
+   text-transform: uppercase;
+}
+
+.item_cost_basic {
+   font-size: 35px;
+   font-weight: 700;
+
+   font-family: 'Raleway', sans-serif;
+   background-color: #333333;
+   color: #ffffff;
+   border-top: 1px solid #f5f5f5;
+   border-bottom: 2px solid #f5f5f5;
+   padding: 26px 135px 33px 144px;
+}
+
+.item_info_basic {
+   font-size: 14px;
+   font-weight: 600;
+   white-space: nowrap;
+   font-family: 'Open sans', sans-serif;
+   background-color: #333333;
+   color: rgba(255, 255, 255, 0.5);
+   padding: 14px 127px 17px 135px;
+}
+
+.item_info_basic::first-letter {
+   text-transform: uppercase;
+}
+
+.item_list_basic {
+   font-size: 14px;
+   font-weight: 400;
+
+   font-family: 'Open sans', sans-serif;
+   color: #86878b;
+   padding: 10px 123px 11px 131px;
+   white-space: nowrap;
+   margin-top: 4px;
+   background-color: #ffffff;
+}
+
+/* block_optima */
+
+.block_optima {
+   max-width: 340px;
+   justify-content: center;
+   text-align: center;
+   margin: 0 15px;
+   transition: 0.3s;
+}
+
+.block_optima:hover {
+   transform: scale(1.1);
+   border: 1px solid rgba(26, 24, 24, 0.5);
+}
+
+.item_name_optima {
+   font-size: 20px;
+   font-weight: 700;
+
+   font-family: 'Open Sans', sans-serif;
+   padding: 11px 144px 12px;
+   background-color: #333333;
+   color: #ffffff;
+}
+
+.item_name_optima::first-letter {
+   text-transform: uppercase;
+}
+
+.item_cost_optima {
+   font-size: 35px;
+   font-weight: 700;
+
+   font-family: 'Raleway', sans-serif;
+   background-color: #333333;
+   color: #ffffff;
+   border-top: 2px solid #f5f5f5;
+   border-bottom: 2px solid #f5f5f5;
+   padding: 27px 135px 32px 144px;
+}
+
+.item_info_optima {
+   font-size: 14px;
+   font-weight: 600;
+
+   font-family: 'Open sans', sans-serif;
+   background-color: #333333;
+   color: rgba(255, 255, 255, 0.5);
+   padding: 14px 127px 17px 135px;
+   white-space: nowrap;
+}
+
+.item_info_optima::first-letter {
+   text-transform: uppercase;
+}
+
+.item_list_optima {
+   font-size: 14px;
+   font-weight: 400;
+
+   font-family: 'Open sans', sans-serif;
+   color: #86878b;
+   padding: 10px 123px 11px 131px;
+   white-space: nowrap;
+   margin-top: 4px;
+   background-color: #ffffff;
+}
+
+/* block_pro */
+
+.block_pro {
+   max-width: 340px;
+   justify-content: center;
+   text-align: center;
+   margin: 0 15px;
+   transition: 0.3s;
+}
+
+.block_pro:hover {
+   transform: scale(1.1);
+   border: 1px solid rgba(26, 24, 24, 0.5);
+}
+
+.item_name_pro {
+   font-size: 20px;
+   font-weight: 700;
+
+   font-family: 'Open Sans', sans-serif;
+   padding: 11px 144px 12px;
+   background-color: #333333;
+   color: #ffffff;
+}
+
+.item_name_pro::first-letter {
+   text-transform: uppercase;
+}
+
+.item_cost_pro {
+   font-size: 35px;
+   font-weight: 700;
+
+   font-family: 'Raleway', sans-serif;
+   background-color: #333333;
+   color: #ffffff;
+   border-top: 1px solid #f5f5f5;
+   border-bottom: 2px solid #f5f5f5;
+   padding: 26px 135px 33px 144px;
+}
+
+.item_info_pro {
+   font-size: 14px;
+   font-weight: 600;
+
+   font-family: 'Open sans', sans-serif;
+   background-color: #333333;
+   color: rgba(255, 255, 255, 0.5);
+   padding: 14px 127px 17px 135px;
+   white-space: nowrap;
+}
+
+.item_info_pro::first-letter {
+   text-transform: uppercase;
+}
+
+.item_list_pro {
+   font-size: 14px;
+   font-weight: 400;
+
+   font-family: 'Open sans', sans-serif;
+   color: #86878b;
+   padding: 10px 123px 11px 131px;
+   white-space: nowrap;
+   margin-top: 4px;
+   background-color: #ffffff;
+}

@@ -1,0 +1,31 @@
+footer {
+   background-color: #000000;
+}
+
+.footer_wrap {
+   padding: 30px 0px 15px;
+   flex-wrap: wrap;
+}
+
+.footer_listen_items {
+   display: flex;
+   justify-content: center;
+}
+
+.footer_listen_items i {
+   font-size: 25px;
+   margin: 0px 10px;
+   color: #cccccc;
+   transition: 0.3s;
+}
+
+.footer_text {
+   font-size: 12px;
+   font-weight: 400;
+   font-family: 'Open sans', sans-serif;
+
+   display: block;
+   color: rgba(255, 255, 255, 0.5);
+   text-align: center;
+   margin-top: 18px;
+}

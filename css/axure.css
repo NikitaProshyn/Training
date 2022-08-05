@@ -1,0 +1,94 @@
+/* axure  */
+
+.axure {
+   background: url(../img/bg/backgroundaxure.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   z-index: 1;
+   padding: 58px 0;
+}
+
+.axure::after {
+   content: '';
+   background: rgba(0, 0, 0, 0.55);
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   z-index: 100;
+}
+
+.axure_wrap {
+   justify-content: center;
+   text-align: center;
+}
+
+.axure_tittle {
+   font-size: 36px;
+   font-weight: 400;
+   font-family: 'Raleway', sans-serif;
+
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.axure_tittle::after {
+   content: '';
+   display: block;
+   background-color: #fff;
+   height: 2px;
+   width: 64px;
+   margin: 34px auto;
+}
+
+.axure_text {
+   font-size: 16px;
+   font-weight: 300;
+   font-family: 'Raleway', sans-serif;
+
+   color: rgba(255, 255, 255, 0.8);
+}
+
+/* button */
+
+.axure_button {
+   margin: 57px auto 0px;
+   display: block;
+   max-width: 135px;
+   line-height: 40px;
+   border: 1px solid #fff;
+   cursor: pointer;
+
+   position: relative;
+
+   animation-name: axure_button;
+   animation-duration: 1.5s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes axure_button {
+   0% {
+      transform: scale(1);
+   }
+   50% {
+      transform: scale(1.1);
+   }
+
+   100% {
+      transform: scale(1);
+   }
+}
+
+.axure_button::first-letter {
+   text-transform: uppercase;
+}
+
+.axure_button_text {
+   font-size: 15px;
+   font-weight: 600;
+   font-family: 'Open sans', sans-serif;
+   color: #fff;
+}

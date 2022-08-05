@@ -1,0 +1,81 @@
+.social_media {
+   background-color: #f8efef;
+}
+
+/* .social_media_wrap */
+
+.social_media_wrap {
+   display: flex;
+   justify-content: space-between;
+}
+
+/* .social_media_info */
+
+.social_media_info {
+   padding: 14px 0px;
+   max-width: 365px;
+}
+
+.info_tittle {
+   font-size: 20px;
+   font-weight: 700;
+   font-family: 'Open sans', sans-serif;
+
+   color: #333333;
+}
+
+.info_text {
+   font-size: 14px;
+   font-weight: 400;
+   font-family: 'Open sans', sans-serif;
+   padding-top: 14px;
+   color: #86878b;
+}
+
+/* social_media_items  */
+
+.social_media_items {
+   padding: 34px 0px;
+   display: flex;
+   max-width: 680px;
+   flex-wrap: wrap;
+}
+
+.social_media_listen_item i {
+   font-size: 40px;
+   margin-left: 50px;
+   color: #cccccc;
+   transition: 0.7s;
+}
+
+.social_media_listen_item i:hover {
+   transform: scale(1.5);
+}
+
+.fa-facebook:hover {
+   color: #395693;
+}
+
+.fa-twitter:hover {
+   color: #34b3f7;
+}
+
+.fa-google:hover {
+   color: #bf211e;
+}
+
+.fa-pinterest:hover {
+   color: #c71e27;
+}
+
+.fa-instagram:hover {
+   color: #c4008f;
+}
+
+.fa-linkedin:hover {
+   color: #0a63bc;
+}
+
+.fa-vk:hover {
+   color: #0173f7;
+}
